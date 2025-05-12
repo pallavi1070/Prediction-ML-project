@@ -45,7 +45,7 @@ streamlit run app.py
 - `predict_page.py` - Handles the salary prediction UI and logic.
 - `explore_page.py` - Handles data exploration and visualization.
 - `saved_steps.pkl` - Trained model and encoders.
-- `survey_results_public.csv` - Dataset from Stack Overflow (2020).
+- `survey_results_public.csv.gz` - Dataset from Stack Overflow (2020).
 - `salary_prediction2.ipynb` - Notebook used for preprocessing and training.
 
 ---
@@ -58,6 +58,6 @@ See `requirements.txt`
 
 ## 📚 Data Source
 
-- Stack Overflow Developer Survey 2020: [link](https://insights.stackoverflow.com/survey/2020)
+See `survey_results__public.csv.gz`
 
 ---
