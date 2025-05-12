@@ -32,7 +32,7 @@ def clean_education(edu):
 
 @st.cache
 def load_data():
-    df = pd.read_csv("survey_results_public.csv")
+    df = pd.read_csv("survey_results_public.csv.gz", compression='gzip')
     df = df[["Country", "EdLevel", "YearsCodePro", "Employment", "ConvertedComp"]]
     df = df.rename({"ConvertedComp": "Salary"}, axis=1)
     df = df[df["Salary"].notnull()]
